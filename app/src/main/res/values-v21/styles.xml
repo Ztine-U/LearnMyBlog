@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
+
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/md_green_600</item>
@@ -8,10 +9,7 @@
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:searchViewStyle">@style/MySearchViewSytle</item>
     </style>
-    <style name="MySearchViewSytle" parent="Widget.AppCompat.SearchView">
-
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:navigationBarColor">@color/md_green_600</item>
     </style>
-
-    <style name="AppTheme" parent="@style/AppBaseTheme" />
-
 </resources>
