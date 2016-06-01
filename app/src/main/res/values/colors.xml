@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="md_green_600">#FF148C17</color>
     <color name="md_green_800">#056608</color>
+    <color name="md_green_100">#71d688</color>
+    <color name="md_white_1000">#c7c7c7</color>
 </resources>

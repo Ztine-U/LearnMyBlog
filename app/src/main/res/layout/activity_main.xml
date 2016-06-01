@@ -9,10 +9,12 @@
     <include layout="@layout/activity_toolbar" />
 
     <android.support.v4.widget.DrawerLayout
-        android:id="@+id/main_drawer"
+        android:id="@+id/dl_drawer"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="match_parent">
-
+        >
+        <include layout="@layout/activity_main_content"/>
+        <include layout="@layout/activity_main_menu"/>
     </android.support.v4.widget.DrawerLayout>
 
 
