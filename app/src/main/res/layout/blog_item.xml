@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:layout_gravity="center"
-    app:cardCornerRadius="6dp">
+    >
 
     <include layout="@layout/blog_item_view"/>
 
