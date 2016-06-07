@@ -21,4 +21,11 @@
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
+    <blacktea.ztine.learnmyblog.view.MyProgressBar
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/progressbar" />
+
 </LinearLayout>

@@ -7,7 +7,7 @@
     android:padding="3dp"
     android:weightSum="1">
     <com.makeramen.roundedimageview.RoundedImageView
-        android:id="@+id/rv_userhead"
+        android:id="@+id/rv_blogitem_head"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@mipmap/avatar_default"
@@ -28,7 +28,7 @@
         android:layout_marginLeft="3dp">
 
         <TextView
-            android:id="@+id/blog_item_title"
+            android:id="@+id/tv_blogitem_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="测试标题"
@@ -41,7 +41,7 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/blog_item_summary"
+            android:id="@+id/tv_blogitem_summary"
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:text="测试内容测试内容测试内容测试内容"
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4小时前"
-                android:id="@+id/tv_blogtem_post"
+                android:id="@+id/tv_blogitem_post"
                 android:textSize="10dp"
                 android:layout_marginTop="1dp"
                 android:layout_marginLeft="4dp"
